@@ -82,3 +82,13 @@ nav {
       display: none;
     }
   }
+
+  [data-tooltip]:hover::after {
+    display: block;
+    position: relative;
+    content: attr(data-tooltip);
+    border: 1px solid #FFFFFF;
+    background: #3399ff;
+    padding: .25em;
+    color: #FFFFFF;
+  }
