@@ -1,0 +1,84 @@
+/*
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+*/
+
+body {
+    /*
+    text-align: center;
+    color: #000f08;
+    */
+    background-color: #000000;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font: normal normal medium 50px/59px Raleway;
+  }
+
+nav {
+    background: #3399ff; 
+    color: white;
+}
+
+.navImg  {
+    padding: 0 0 0 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 6%;
+  }
+
+  span{
+    border-bottom: 2px dotted cyan;
+    position: relative;
+  }
+
+  .whoWeAre {
+    color: white;
+  }
+
+  .cardsWithText{
+    width: 100%;
+    background:black; 
+    color:white; 
+  }
+
+  .cardsBelow{
+    width: 100%; 
+    background: #3399ff; 
+    color:white; 
+  }
+
+  .pie{
+    padding: 2rem 0 2rem 0;
+  }
+
+  .pieColor{
+    width: 100%;
+    background: #3399ff; 
+    color: white;
+  }
+
+  .enlacesBlancos{
+    color:#ffffff;
+  }
+
+  .oculto{
+    display: none;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .card {
+      display: none;
+    }
+  }
