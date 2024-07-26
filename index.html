@@ -51,6 +51,7 @@
 <body>
 
 <header>
+  <!-- Menu navegable-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container-fluid">
             <div>
@@ -80,8 +81,7 @@
         </div>
       </nav>
 
-
-
+<!-- Carrusel segun requerimiento-->
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -105,6 +105,8 @@
       </div>
 
 </header>
+
+<!-- Quienes somos-->
 <section > 
     <div class="container-fluid text-center my-auto whoWeAre oculto">
         <h1 id="who" data-tooltip="Tooltip">¿Quienes somos?</h1>
@@ -153,7 +155,7 @@
  
 </section>
 
-
+<!-- Destacados-->
 <aside>
     <div class="container-fluid text-center my-auto" style="color: white;">
         <h1 id="remarcable">Destacados</h1>
@@ -207,26 +209,26 @@
 
 
 
-
+<!-- Formulario de contacto-->
 <section id="contacto" class="container-fluid">
   <div class="text-center" style="border-bottom: solid">
     <h1>CONTACTO</h1>
   </div>
 
-      <div class="mb-3">
-        <label for="nombre" class="form-label">Nombre</label>
-        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ingresa tu nombre"/>
-      </div>
-
-      <div class="mb-3">
-        <label for="asunto" class="form-label">Asunto</label>
-        <input type="text" class="form-control" id="asunto" placeholder="Cuál es tu asunto?" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ingresa el asunto del mensaje"/>
-      </div>
-      <div class="mb-3">
-        <label for="mensaje" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="mensaje" rows="6" placeholder="Escribe aquí tus mensaje." data-bs-toggle="tooltip" data-bs-placement="bottom" title="Escribe aquí tus mensajes."></textarea>
-      </div>
-
+  <form>
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ingresa tu nombre"/>
+    </div>
+    <div class="mb-3">
+      <label for="asunto" class="form-label">Asunto</label>
+      <input type="text" class="form-control" id="asunto" placeholder="Cuál es tu asunto?" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ingresa el asunto del mensaje"/>
+    </div>
+    <div class="mb-3">
+      <label for="mensaje" class="form-label">Mensaje</label>
+      <textarea class="form-control" id="mensaje" rows="6" placeholder="Escribe aquí tus mensaje." data-bs-toggle="tooltip" data-bs-placement="bottom" title="Escribe aquí tus mensajes."></textarea>
+    </div>
+  </form>
 
       <!-- Seccion alert, mostrar mensaje, el formulario anterior se recargaba al pulsar el boton-->
       <div class="my-3">
@@ -249,12 +251,8 @@
           </div>
         </div>
       </div>
-
-
-    </div>
-  </div>
 </section>
-
+<!-- Pie de pagina-->
 <footer>
     <div class="row pieColor">
         <div class="col text-center pie">
